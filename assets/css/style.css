@@ -1,0 +1,116 @@
+*{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(/assets/images/bg2.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+   
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.promo-container {
+    border: 2px solid white;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.promo-container :hover{
+    color: black;
+}
+
+.promo-container p {
+    margin: 5px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: default;
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+    border: 10px rgb(76, 76, 76);;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+}
+
+.promo-container button, #newClassForm button {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 2px 0;
+    
+}
+
+#newClassBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: cornflowerblue;
+}
+
+#newClassForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#newClassForm input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin: 3px;
+    gap: 9px;
+    align-items: center;
+}
+.deleteBtn{
+    background-color: red;
+    
+}
+
+a{
+    color: white;
+}

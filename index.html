@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Les <span style="color: cornflowerblue;">promos</span></h1>
+    
+    <button id="newClassBtn">Nouvelle Classe</button>
+    
+    <form id="newClassForm" style="display: none;">
+        <input type="text" id="className" placeholder="Nom de la classe" required>
+        <input type="date" id="startDate" required>
+        <input type="date" id="endDate" required>
+        <button type="submit">Créer</button>
+    </form>
+
+    <div id="container">
+        
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
